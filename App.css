@@ -1,0 +1,270 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+h1{
+  color: #e1e1e1;
+  font-weight: 600;  
+}
+h3{
+  color: rgb(214, 214, 9);
+}
+.head1{
+  position: absolute;
+  top: 1rem;
+  left: 45rem;
+}
+.head2{
+  position: absolute;
+  top: 12rem;
+  left: 8rem;
+  transform: rotate(-90deg);
+}
+.list{
+  width: 12rem;
+  position: absolute;
+  top: 5rem;
+  left: 20rem;
+  text-align: right;
+}
+.circle{
+  width: 15rem;
+  height: 15rem;
+  background-color: #222222;
+  border-radius: 50%;
+  color: white;
+  position: absolute;
+  top: 5rem;
+  left: 36rem;
+  font-size: 10rem;
+  cursor: pointer;
+  text-align: center;
+}
+.circle:hover{
+  background-color: #292929;
+}
+.circleB{
+  width: 10rem;
+  height: 10rem;
+  background-color: #e1e1e1;
+  border-radius: 50%;
+  position: absolute;
+  top: 22rem;
+  left: 39rem;
+  box-shadow: 0px 0px 20px 0px rgb(172, 172, 172);
+}
+.circleB:hover{
+  box-shadow: 0px 0px 30px 0px rgb(131, 130, 130);
+}
+.line{
+  width: 5px;
+  height: 15rem;
+  background-color: #e1e1e1;
+  position: absolute;
+  top: 34rem;
+  left: 44rem;
+  border-radius: 25%;
+}
+.list2{
+  width: 12rem;
+  position: absolute;
+  top: 20rem;
+  left: 56rem;
+  text-align: left;
+}
+.head3{
+  position: absolute;
+  top: 45rem;
+  left: 25rem;
+}
+.circle2{
+  width: 20rem;
+  height: 20rem;
+  background-color: #222222;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+  position: absolute;
+  top: 50rem;
+  left: 34.5rem;
+  text-align: center;
+
+}
+.circle2>h3{
+  padding-top: 32px;
+}
+.circle2>p{
+  width: 18rem;
+  padding-left: 15px;
+}
+.circle2:hover{
+  background-color: #303030;
+}
+.list3{
+  width: 12rem;
+  position: absolute;
+  top: 75rem;
+  left: 20rem;
+  text-align: right;
+}
+.circleB2{
+  width: 10rem;
+  height: 10rem;
+  background-color: #e1e1e1;
+  border-radius: 50%;
+  position: absolute;
+  top: 74rem;
+  left: 39.7rem;
+  box-shadow: 0px 0px 20px 0px rgb(172, 172, 172);
+}
+.circleB2:hover{
+  box-shadow: 0px 0px 30px 0px rgb(131, 130, 130);
+}
+.line2{
+  width: 5px;
+  height: 25rem;
+  background-color: #e1e1e1;
+  position: absolute;
+  top: 86rem;
+  left: 44.5rem;
+  border-radius: 25%;
+}
+.shape{
+  width: 15rem;
+  height: 10rem;
+  background-color: #e1e1e1;
+  /* border-radius: 50%; */
+  position: absolute;
+  top: 94rem;
+  left: 44.72rem;
+  box-shadow: 0px 0px 10px 0px rgb(172, 172, 172);
+  border-bottom-right-radius: 20%;
+  border-top-left-radius: 20%;
+  border-top-right-radius: 20%;
+  
+}
+.shape:hover{
+  box-shadow: 0px 0px 30px 0px rgb(131, 130, 130);
+}
+.head4{
+  position: absolute;
+  top: 72rem;
+  left: 61rem;
+  transform: rotate(-90deg);
+  
+}
+.para{
+  position: absolute;
+  top: 95rem;
+  left: 61rem;
+  width: 10rem;
+}
+.head5{
+  position: absolute;
+  top: 107rem;
+  left: 50rem;
+}
+.circle3{
+  width: 20rem;
+  height: 20rem;
+  background-color: #222222;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+  position: absolute;
+  top: 113rem;
+  left: 34.5rem;
+  text-align: center;
+
+}
+.circle3>h3{
+  padding-top: 32px;
+}
+.circle3>p{
+  width: 18rem;
+  padding-left: 15px;
+}
+.circle3:hover{
+  background-color: #303030;
+}
+.head6{
+  position: absolute;
+  top: 130rem;
+  left: 9rem;
+  transform: rotate(-90deg);
+}
+.list4{
+  width: 12rem;
+  position: absolute;
+  top: 135rem;
+  left: 20rem;
+  text-align: right;
+}
+.circleB3{
+  width: 10rem;
+  height: 10rem;
+  background-color: #e1e1e1;
+  border-radius: 50%;
+  position: absolute;
+  top: 137rem;
+  left: 39.7rem;
+  box-shadow: 0px 0px 20px 0px rgb(172, 172, 172);
+}
+.circleB3:hover{
+  box-shadow: 0px 0px 30px 0px rgb(131, 130, 130);
+}
+.line3{
+  width: 5px;
+  height: 15rem;
+  background-color: #e1e1e1;
+  position: absolute;
+  top: 149rem;
+  left: 44.5rem;
+  border-radius: 25%;
+}
+.head7{
+  position: absolute;
+  top: 164rem;
+  left: 39rem;
+  padding-bottom: 5%;
+}
+.container{
+  width: 100%;
+  margin-left: 500%;
+
+}
